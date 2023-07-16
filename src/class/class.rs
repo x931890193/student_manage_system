@@ -6,11 +6,8 @@ use serde::{Deserialize, Serializer, Deserializer};
 pub struct Class {
     pub id: u8,
     pub name: String,
-    pub teacher: String,
-    pub students: Vec<Student>,
     pub create_time: String,
     pub modify_time: String,
-
 }
 
 #[derive(Debug)]

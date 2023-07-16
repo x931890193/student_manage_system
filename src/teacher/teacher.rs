@@ -7,5 +7,16 @@ pub struct Teacher {
     pub id: u8,
     pub name: String,
     pub age: u8,
-    pub curses: Vec<Curse>,
+}
+
+
+
+impl Teacher {
+    pub fn new(id: u8, name: String, age: u8) -> Teacher {
+        Teacher {
+            id,
+            name,
+            age,
+        }
+    }
 }
